@@ -34,82 +34,72 @@
       .row.content {height: auto;} 
     }
 
-    *{
-        background-color:rgb(153, 226, 255);
-    }
+    header {
+            background-color:  #3399cc;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+        }
+
+        #header-icon {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    footer {
+    background-color: #3399cc; /* Azul mais escuro para o rodapé */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%; }
+    button {
+    background: linear-gradient(to bottom, #564caf, #2725c9);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
   </style>
 </head>
 <body>
+  <header>
+    <img src="https://raw.githubusercontent.com/IsabellaBertolo/a/main/download-removebg-preview.png"  id="header-icon">
+    <h1>Blog da Bella</h1>
+</header>
+
 
 <div class="container-fluid">
   <div class="row content">
     <div class="col-sm-3 sidenav">
-      <h4 style="border:2px solid rgb(12, 0, 0)"> Meu blog pessoal</h4>
+      <h4 > Meu blog pessoal</h4>
       <ul class="nav nav-pills nav-stacked">
         <li class="active default">
-        <li><a href="#section1">Home</a></li>
-        <li><a href="#section2">Sobre mim</a></li>
-        <li><a href="#section3">Contato</a></li>
-        <li><a href="#section4">Login</a></li>
+        <li><a href="home">home</a></li>
+        <li><a href="sobremim">Sobre mim</a></li>
+        <li><a href="contato">Contato</a></li>
+        <li><a href="login">Login</a></li>
       </ul><br>
       <div class="input-group">
         </span>
       </div>
     </div>
 
-    <div class="col-sm-9">
-      <h4><small>POSTAGENS</small></h4>
-      <hr>
-      <h2>PROFISSÃO DOS SONHOS</h2>
-      <h5><span class="glyphicon glyphicon-time"></span> Data: 25/01/2024</h5>
-      <p></p>
-      <br>Persistir na vida profissional é um ingrediente crucial para o sucesso a longo prazo. Em meio aos desafios e obstáculos, a capacidade de manter a resiliência e continuar avançando é o que diferencia os profissionais que alcançam seus objetivos daqueles que desistem. A jornada profissional é repleta de altos e baixos, mas é a determinação em face das adversidades que constrói a base para conquistas significativas.
+    <main>
+      <h1>Seja bem-vindo!</h1>
+      <img src="images.jpeg" height="900px">
 
-      Persistir não significa apenas superar fracassos, mas também aprender com eles. Cada revés oferece uma oportunidade valiosa de crescimento pessoal e profissional. Ao persistir, você desenvolve habilidades como paciência, adaptabilidade e uma mentalidade de solução de problemas, características essenciais para se destacar em um ambiente dinâmico.
-      
-      Além disso, a persistência é muitas vezes a chave para alcançar metas ambiciosas. É a força motriz por trás da aquisição contínua de conhecimento, do aprimoramento de habilidades e da busca incessante pela excelência. Ao persistir, você constrói um caminho sólido em direção ao sucesso, enfrentando desafios com coragem e perseverança.
-      
-      Portanto, lembre-se sempre de que a jornada profissional é uma maratona, não uma corrida de curta distância. Aqueles que persistem, apesar das dificuldades, encontram recompensas duradouras e alcançam não apenas o que desejam, mas também o que merecem.<br>
-      
-      <h4><small>POSTAGENS</small></h4>
-      <hr>
-      <h2>Honestidade no trabalho </h2>
-      <h5><span class="glyphicon glyphicon-time"></span> Data: 20 de Janeiro de 2024</h5>
-      <p>Além disso, a honestidade é a base para a solução eficaz de problemas. Ao enfrentar questões e desafios com sinceridade, as equipes podem trabalhar juntas para encontrar soluções, aprendendo e crescendo no processo. A honestidade também fortalece a capacidade de receber feedback construtivo, permitindo o aprimoramento contínuo e o desenvolvimento profissional.
-
-        No longo prazo, ser honesto no ambiente de trabalho não apenas constrói uma reputação de confiabilidade, mas também contribui para um ambiente onde os valores éticos são respeitados. Ao escolher a honestidade como um princípio orientador, cada indivíduo contribui para a criação de uma cultura organizacional que valoriza a integridade e fomenta o sucesso sustentável.
-        Pois, falando nos mínimos detalhes, ninguém deve praticar qualquer tipo de trabalho sem honestidade, a menos que dele obtenha algum benefício e esteja cego pelo desejo.</p>
-      <hr>
-      
-      <p><span class="badge">2</span> Comments:</p><br>
-      
-      <div class="row">
-        <div class="col-sm-2 text-center">
-          <img src="oi.jpg" class="img-circle" height="65" width="65" alt="Avatar">
-        </div>
-        <div class="col-sm-10">
-          <h4>ANA <small>Sep 29, 2015, 9:12 PM</small></h4>
-          <p>Vai dar certo essa nova etapa na sua vida, sucesso para você </p>
-          <br>
-        </div>
-        <div class="col-sm-2 text-center">
-          <img src="oi.jpg" class="img-circle" height="65" width="65" alt="Avatar">
-        </div>
-        <div class="col-sm-10">
-          <h4>John <small>Sep 25, 2015, 8:25 PM</small></h4>
-          <p>Continue com o ótimo trabalho! Estou torcendo por você!! 
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 <center>
-<footer class="container-fluid">
-  <p>2024 Meu Blog Pessoal. Todos os direitos reservados.</p>
+  <footer>
+    <p>&copy; 2024 Blog. Todos os direitos reservados.</p>
 </footer>
-
 
 </body>
 </html>

@@ -77,7 +77,7 @@
             <label for="password">Senha:</label>
             <input type="password" id="password" name="password" required>
 
-            <button type="submit">Entrar</button>
+            <button  type="submit">Entrar</button>
         </form>
     </div>
 
